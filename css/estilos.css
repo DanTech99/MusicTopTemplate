@@ -1,0 +1,48 @@
+.nav {
+}
+.logo{
+    background: hsl(334, 77%, 50%);
+}
+.logo img{
+    width: 4rem;
+   filter:invert()
+}
+
+.menu li{
+    padding: 5px;
+    list-style: none;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.menu li a:hover{
+    color: hsl(334, 77%, 50%);
+   
+}
+
+
+.banner{
+    background-image: url("../imagenes/concierto_two.jpg");
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.banner h2{
+    color: white;
+}
+
+/* seccion de artistas */
+.header-artist h1{
+    color: white;
+}
+.header-artist h1 span{
+    color: hsl(334, 77%, 50%);
+}
+.header-artist > span{
+    color: white;
+    font-weight: 100;
+}
