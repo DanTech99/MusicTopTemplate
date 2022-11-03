@@ -22,6 +22,11 @@
    
 }
 
+@media (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+}
 
 .banner{
     background-image: url("../imagenes/concierto_two.jpg");
@@ -30,9 +35,11 @@
     background-size: cover;
     background-position: center;
     align-items: center;
+    width: 100%;
 }
 .banner h2{
     color: white;
+    text-shadow:5px 5px hsl(334, 77%, 50%);
 }
 
 /* seccion de artistas */
@@ -102,9 +109,81 @@
     padding: 5px;
 }
 .album-details h4{
-   
     font-size: 17px;
 }
 .album-details span{
     font-size: 15px;
+}
+
+/* seccion para banners */
+.banner-fils{
+    background-image: url("../imagenes/banner-artista.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+}
+
+/* seccion para las tarjetas de song */
+.song-card{
+    height: auto;
+}
+.song-img{
+    width: 60%;
+    overflow: hidden;
+}
+.song-img img{
+    height: 100%;
+}
+.song-detail{
+    padding: 10px;
+    width: 40%;
+    text-align: start;
+    color: white;
+}
+
+
+/* seccion para noticias */
+.card-new{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.new-img{
+    max-height: 300px;
+    overflow: hidden;
+}
+.new-content{
+    padding: 10px;
+    background: #4B515D;
+}
+.new-content h4{
+    font-weight: 500;
+    color: white;
+}
+.new-content p{
+    font-weight: 300;
+    color: white;
+}
+
+/* seccion del footer */
+.footer{
+    background: rgb(0, 0, 0);
+}
+.footer > p{
+    color: white;
+    text-align: center;
+}
+
+.social-footer{
+    padding: 5px;
+}
+.social-footer a{
+    color: wheat;
+    text-decoration: none;
+    margin: 10px;
+   
+}
+.social-footer a .icon{
+    font-size: 25px;
 }
