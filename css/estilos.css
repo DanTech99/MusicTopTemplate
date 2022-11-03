@@ -56,7 +56,7 @@
 
 /* tarjetas de los top de artistas */
 .card{
-    height: 24rem;
+    height: 25rem;
     overflow: hidden;
 }
 .card-img{
@@ -78,9 +78,14 @@
     transform: scale(1.1);
     filter: brightness(.5);
 }
-.card-title p{
+.card-title p:first-child{
     color: white;
     font-weight: 600;
+}
+.card-title p{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
 }
 .card-title span{
     color: white;
